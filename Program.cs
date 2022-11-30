@@ -61,13 +61,3 @@
 //             Console.Write(j+", ");
 //         else if (j == N-1 && j % 2 == 0)
 //             Console.Write(j);
-
-Console.Write("Введите натуральное число: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int i = 1;
-if (i % 2 == 0)
-    While ( i<=N )
-    {
-        Console.Write(i+", ");
-    i++;
-    }
